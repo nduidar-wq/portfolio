@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pesonal course organizer</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>  
+    <nav>
+        <p>COURSIFY</p>
+        <ul>
+            <a href="page1.html">home</a>
+            <a href="page2.html">courses</a>
+            <a href="page3.html">Add course</a>
+            <a href="page4.html">contact us</a>
+        </ul>
+    </nav>
+
+   <main>
+    <h2>Add Course</h2>
+    <p id="course-details"> fill in the details below to add a new course:</p>
+    <form action="submit_course.php" method="post">
+        <label for="course-name">Course Name:</label>
+        <input type="text" id="course-name" name="course-name" placeholder="Enter course name" required>
+        <br>
+
+        <label for="instructor">Instructor:</label>
+        <input type="text" id="instructor" name="instructor" placeholder="Enter instructor name" required>
+        <br>
+
+        <label for="credit-hours">Credit Hours:</label>
+        <input type="number" id="credit-hours" name="credit-hours" placeholder="Enter credit hours " required>
+        <br>
+
+        
+       <label for ="notes"> Add Notes:</label>
+       <input type="text" id="notes" name="notes" placeholder="optional">
+         <br>
+
+        <input type="submit" id="submit-btn" value="➕ Add Course">
+   </main> 
+
+   <footer>
+    <p>Copyright &copy; 2026 Coursify. All rights reserved.</p>
+   </footer> 
+</body>
+</html>

@@ -1,0 +1,286 @@
+ main{
+        max-width: 900px;
+        width: 90%;
+        margin: 0 auto;
+    }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 100px;
+    font-family:Arial,sans-serif ;
+    font-size: 30px;
+    color: darkblue;
+    background-color: gainsboro;
+
+} 
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+a:hover{
+    background-color: grey;
+    color: white;
+    padding: 5px;
+
+
+}
+body{
+   
+    background-image: url("background4.jpg");;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width : 100%;
+
+}
+h1{
+    font-family:Arial,sans-serif ;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding-top: 50px ;
+
+}
+div.welcome{
+    font-family:Arial,sans-serif ;
+    font-size: 40px;
+    color:gainsboro;
+    padding: 20px;
+    
+
+}
+button{
+    background-color: gray;
+    color: white;
+    font-family:inherit;
+    font-size: 30px;
+    padding: 20px 40px 20px 40px;
+    margin:20px auto;
+    display: block;
+
+}
+section{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:white;
+    padding: 50px 20px 50px 30px;
+   
+}
+section p{
+    padding: 30px 50px 30px 50px;
+    border: 3px solid gainsboro;
+
+}
+section p:hover{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    transition: 0.5s;
+}
+table{
+    
+    width: 100%;
+    text-align: center;
+    height: 600px;
+    padding: 10px 5px 50px 5px;
+    margin-bottom: 100px; ;
+    font-size: 30px;
+    color: gainsboro;
+}
+th{
+    background-color: white;
+    color:#4B5563;
+    border: 4px solid gray;
+    padding: 5px 10px 5px 10px;
+    font-size: 33px;
+}
+td{
+    border: 2px solid gray;
+    padding: 5px 10px 5px 10px;
+    
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px 50px 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: gainsboro;
+    background-color:rgba(255, 255, 255, 0.054);
+    margin: 15px auto;
+    max-width: 600px;
+    border-radius: 15px;
+}
+h2{
+    font-family:Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+    padding: 30px 0px 5px 130px;
+}
+#course-details{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color:lightslategrey;
+    padding-left: 110px;
+    
+}
+input{
+    padding: 20px 0px 20px 10px;
+    font-size: 30px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    background-color: rgba(9, 3, 42, 0.204);
+    color: black;
+    
+}
+input:hover{
+   
+   background-color: rgba(255, 255, 255, 0.045);
+    transition: 0.5s;
+}
+#submit-btn{
+    background-color: gray;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 20px 30px 20px 30px;
+    margin: 20px auto;
+    display: block;
+}
+#submit-btn:hover{
+    padding: 30px 40px 30px 40px;
+    color: white;
+    transition: 0.5s;
+}
+h3{
+    font-family:Arial, sans-serif;
+    font-size: 40px;
+    color: gainsboro;
+    padding: 30px 0px 5px 130px;
+}
+.social-media{
+    
+    padding-left: 110px;
+    margin-top: 0px;
+    font: size 30px;
+    color: black;
+}
+#contact-details{
+    font-family: monospace;
+    font-size: 30px;
+    color:lightslategrey;
+    padding-left: 70px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 80px 100px 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: gainsboro;
+    background-color:rgba(255, 255, 255, 0.054);
+    margin: 20px 100px 50px 10px;
+    border-radius: 15px;
+}
+textarea{
+    padding: 20px 0px 20px 10px;
+    font-size: 30px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    background-color: rgba(9, 3, 42, 0.204);
+    color: black;
+}
+#submit-btn2{
+    background-color: gray;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px 1px 20px 1px;
+    margin: 10px 100px 10px 100px;
+    margin-left: 100px;
+}
+#submit-btn2:hover{
+    padding: 30px 10px 30px 10px;
+    color: white;
+    transition: 0.5s;
+}
+img{
+    width: 35px;
+    height: 35px;
+    margin: 0px 10px 100px 10px;
+}
+.container{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    
+      
+}
+#help-img{
+    width: 50%;
+    height: 500px;
+    margin: 5px 10px 50px 20px;
+    object-fit: contain;
+    display: block;
+}
+footer{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+@media (max-width:600px) {
+    
+    nav{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 16px;
+        padding: 0 30px;
+        justify-content: center;
+        gap: 10px;
+    }
+    table{
+        display: block;
+        overflow-x: auto;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 100px;
+
+    }
+    #help-img{
+        width: 200px;
+        height: 200px;
+        margin: 0px auto 20px auto;
+        object-fit: contain;
+        display: block;
+    }
+   ul{
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+    a{
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    footer{
+        text-align: center;
+        font-size: 16px;
+
+    }
+
+}   
