@@ -283,4 +283,45 @@ footer{
 
     }
 
-}   
+    h1 {
+        font-size: 28px;     
+        padding-top: 20px;
+    }
+
+    h2 {
+        font-size: 22px;     
+        padding-left: 20px;
+    }
+
+    div.welcome {
+        font-size: 25px;      
+        padding: 10px 20px;
+    }
+
+    section {
+        font-size: 16px;     
+        padding: 20px 15px;
+    }
+
+    button {
+        font-size: 16px;
+        margin-left: 0 auto;
+      
+    }
+
+    form {
+        margin: 15px 10px;
+        padding: 20px 15px;
+    }
+
+    input, textarea {
+        font-size: 16px;
+    }
+
+    #submit-btn {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+ 

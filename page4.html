@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pesonal course organizer</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <nav>
+        <p>COURSIFY</p>
+        <ul>
+            <a href="index.html">home</a>
+            <a href="page2.html">courses</a>
+            <a href="page3.html">Add course</a>
+            <a href="page4.html">contact us</a>
+        </ul>
+    </nav>
+
+   <main>
+      <h3>Contact Us</h3>
+      <p id="contact-details">If you have any questions, suggestions, or feedback, please feel free to reach out to us. </p>
+
+     <div class="container">
+        <img src="help.png" alt="contact us" id="help-img">
+     
+        <form id="contact" action="submit_contact.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+           <br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+           <br>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+           <br>
+
+          <input type="submit" id="submit-btn2" value="Send Message">
+        </form>
+     </div>
+            <p class="social-media">Follow us on social media:</p>
+            
+        <ul >
+        
+            <li><a href="https://www.facebook.com/coursify"><img src="facebook.png" ></a></li>
+            <li><a href="https://www.twitter.com/coursify"><img src="twitter.png" ></a></li>
+            <li><a href="https://www.instagram.com/coursify"><img src="instagram.png" ></a></li>
+            <li><a href="https://www.whatsapp.com/company/coursify"><img src="whatsapp.png" ></a></li>
+        </ul>
+         
+   </main> 
+   <footer>
+    <p>Copyright &copy; 2026 Coursify. All rights reserved.</p>
+    </footer>
+</body>
+</html>
